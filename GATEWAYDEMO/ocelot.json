@@ -1,35 +1,4 @@
-/*{
-    "ReRoutes": [
-        {
-            "DownstreamPathTemplate": "/api/{everything}",
-            "DownstreamScheme": "https",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 7157
-                }
-            ],
-            "UpstreamPathTemplate": "/gateway/{everything}",
-            "UpstreamHttpMethod": [ "GET" ]
-        },
-        {
-            "DownstreamPathTemplate": "/gateway/{everything}",
-            "DownstreamScheme": "https",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "basket-api",
-                    "Port": 7157
-                }
-            ],
-            "UpstreamPathTemplate": "/api/{everything}",
-            "UpstreamHttpMethod": [  "GET" ]
-        }
 
-    ],
-    "GlobalConfiguration": {
-        "BaseUrl": "https://localhost:5000"
-    }
-}*/
 {
     "Routes": [
         {
